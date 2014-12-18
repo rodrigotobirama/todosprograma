@@ -7,6 +7,13 @@ main()
     printf("digite sua idade.\n");
     scanf("%d",&idade);
 
+       if(idade < 15){
+           printf("voce esta abaixo do permitido.\n");
+       }
+       else{
+           printf("voce esta acima.\n");
+       }
+
    system("pause");
 }
 
